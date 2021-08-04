@@ -55,7 +55,7 @@ def first():
 
 
     #Кнопка вставки
-    button_3=tk.Button(window, text="INSERT",
+    button_3=tk.Button(window, text="INSERT LOOOL",
                 activebackground='white',
                 activeforeground='red',
                 command=insert)
