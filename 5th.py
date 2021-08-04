@@ -26,8 +26,9 @@ def first():
     window.geometry("500x650") 
     window.resizable(False, False)
 
-    text_box = tk.Text()
+    text_box = tk.Text(bg='black', fg='white', font=(20))
     text_box.pack()
+    #Text() отличается от Entry() тем,что вмещает в себя больше одной строки
 
     #Кнопка получения введённого текста 
     button_1=tk.Button(window, text="GET",
