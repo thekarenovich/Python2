@@ -28,7 +28,7 @@ def first():
     label.pack()
 
     #Ввод
-    entry=tk.Entry(fg="white", bg="black", width=100)
+    entry=tk.Entry(window, fg="white", bg="black", width=100)
     entry.pack()
 
 
