@@ -18,6 +18,7 @@ def first():
     window.title("FIRST")
     window.geometry("500x650") 
     window.resizable(False, False)
+    window.wm_attributes("-topmost", 1)
         
     button_1=tk.Button(window, text='Hello', command=say_hello, bg='white', fg='black',
                     activebackground='blue', activeforeground='red')
