@@ -10,8 +10,8 @@ c.create_rectangle(10, 10, 190, 60)
 #Первые координаты – верхний левый угол, вторые – правый нижний.
 
 c.create_rectangle(60, 80, 140, 190,
-                   fill='yellow',
-                   outline='green',
+                   fill='yellow', #цвет оболочки
+                   outline='green', #границы фигуры
                    width=3,
                    activedash=(5, 4))
 
