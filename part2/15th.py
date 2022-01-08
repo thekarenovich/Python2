@@ -1,7 +1,7 @@
 from tkinter import *
 
 window = Tk()
-window.title("canvas")
+window.title("canvas1")
 
 c = Canvas(window, width=200, height=200, bg='white')
 c.pack()
