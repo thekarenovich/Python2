@@ -5,6 +5,7 @@ def first():
     window.title("FIRST")
     window.geometry("500x650") 
     window.resizable(False, False)
+    window.wm_attributes("-topmost", 1)
     window.config(bg='blue')
     label_1 = tk.Label(window,
 text='''Hello
