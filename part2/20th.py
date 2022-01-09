@@ -33,4 +33,4 @@ oval = c.create_oval(30, 10, 130, 80,
                      tag="group1")
 c.create_line(10, 100, 450, 100, 
               tag="group1")
-c.bind('<Button-3>', color)'''
+c.bind('<Right>', color)'''
